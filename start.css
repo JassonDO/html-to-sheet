@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap');
+
+body{
+  background-image: url('bg112.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.start {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 100vh;
+}
+
+.start-btn{
+   text-align: center;
+    font-family: "Playwrite HU", cursive;
+
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+  /* background-color: black; */
+  /* border: 1px solid black; */
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+
+}
+.start-btn:hover{
+  /* background-color: wheat; */
+  color: whitesmoke;
+  cursor: pointer;
+  border: 1px solid wheat;
+  transition: background-color 1 ease-in, color 1 ease;
+}
